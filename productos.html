@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/productos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Barberia Alura</title>
+    <link rel="shortcut icon" href="img/logo-blanco.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" class="logo__company" alt="" srcset="">
+            <h2 class="logo__nombre">barberia alura</h2>
+        </div>
+        <nav>
+            <a href="" class="nav__item">inicio</a>
+            <a href="" class="nav__item">sobre nosotros</a>
+            <a href="" class="nav__item">contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="productos">
+            <ul>
+                <li>
+                <h2>Cabello</h2>
+                <img src="img/cabello.jpg" alt="">
+                <p class="producto_descripcion">Con tijera o maquina a gusto del cliente</p>
+                <p class="producto_precio">$10.00</p> 
+                    </li>
+                <li>                
+                    <h2>Barba</h2>
+                    <img src="img/barba.jpg" alt="">
+                    <p  class="producto_descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto_precio">$08.00</p>
+                    </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="img/cabello+barba.jpg" alt="">
+                    <p class="producto_descripcion">Paquete completo de cabello y Barba</p>
+                    <p class="producto_precio">$15.00</p>
+                    </li>
+            </ul>
+        </div>
+    </main>
+    
+    <div class="contacto">
+        <h2 class="contacto__titulo">Contactanos</h2>
+        <form action="post" class="contacto__form">
+
+            <label for="nombreApellido" class="contacto__form-datos">Nombres y Apellidos</label>
+            <input type="text"  class="contacto__form-inputs"  name="" id="">
+
+            <label for="correo" class="contacto__form-datos">Correo</label>
+            <input type="email"class="contacto__form-inputs" name="" id="">
+
+            <label for="telefono" class="contacto__form-datos">Teléfono</label>
+            <input type="tel"class="contacto__form-inputs" name="" id="">
+
+            <label for="mensaje" class="contacto__form-datos">Mensaje</label>
+            <textarea name=""class="contacto__form-mensaje" id="" cols="30" rows="10"></textarea>
+
+            <label for="" class="contacto__form-datos">como nos conociste?</label>
+
+            <label for="radio-google" class="contacto__form-datos">google</label>
+            <input type="radio" class="contacto__form-radio" name="contacto" id="">
+            
+            <label for="radio-facebook" class="contacto__form-datos">facebook</label>
+            <input type="radio" class="contacto__form-radio" name="contacto" id="">
+            
+            <label for="radio-instagram" class="contacto__form-datos">instagram</label>
+            <input type="radio" class="contacto__form-radio" name="contacto" id="">
+
+            <input type="submit"class="contacto__form-button" value="Enviar mensaje" class="contacto__btn">
+        </form>
+
+    </div>
+
+    <footer>
+        <img src="img/logo-blanco.png" alt="">
+        <p class="copyright">&copy Copyright Barberia Alura - 2022</p>
+    </footer>
+</body>
+</html>
